@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,21 +14,21 @@
             --text-color: #333;
             --border-color: #e0e0e0;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
+
         body {
             background-color: #fff;
             color: var(--text-color);
             line-height: 1.6;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -36,7 +37,7 @@
             padding: 40px;
             border-radius: 8px;
         }
-        
+
         .header {
             display: flex;
             align-items: center;
@@ -44,7 +45,7 @@
             padding-bottom: 20px;
             border-bottom: 1px solid var(--border-color);
         }
-        
+
         .profile-img {
             width: 150px;
             height: 150px;
@@ -53,25 +54,25 @@
             margin-right: 30px;
             border: 4px solid var(--secondary-color);
         }
-        
+
         .header-text h1 {
             color: var(--primary-color);
             margin-bottom: 5px;
             font-size: 2.2rem;
         }
-        
+
         .header-text p {
             color: #7f8c8d;
             font-size: 1.1rem;
             margin-bottom: 10px;
         }
-        
+
         .contact-info {
             display: flex;
             gap: 20px;
             flex-wrap: wrap;
         }
-        
+
         .contact-info a {
             color: var(--secondary-color);
             text-decoration: none;
@@ -79,15 +80,15 @@
             align-items: center;
             gap: 5px;
         }
-        
+
         .contact-info a:hover {
             text-decoration: underline;
         }
-        
+
         .section {
             margin-bottom: 40px;
         }
-        
+
         .section-title {
             color: var(--primary-color);
             font-size: 1.5rem;
@@ -98,79 +99,79 @@
             align-items: center;
             gap: 10px;
         }
-        
+
         .section-title i {
             color: var(--secondary-color);
         }
-        
+
         .item {
             margin-bottom: 20px;
         }
-        
+
         .item-header {
             display: flex;
             justify-content: space-between;
             margin-bottom: 5px;
         }
-        
+
         .item-title {
             font-weight: bold;
             color: var(--primary-color);
         }
-        
+
         .item-date {
             color: #7f8c8d;
             font-style: italic;
         }
-        
+
         .item-subtitle {
             color: var(--secondary-color);
             margin-bottom: 5px;
         }
-        
+
         .item-details {
             margin-left: 20px;
         }
-        
+
         .item-details ul {
             padding-left: 20px;
         }
-        
+
         .skills-container {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
         }
-        
+
         .skill-category {
             flex: 1;
             min-width: 200px;
         }
-        
+
         .skill-category h4 {
             margin-bottom: 10px;
             color: var(--primary-color);
         }
-        
+
         .skill-list {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
         }
-        
+
         .skill-tag {
             background-color: var(--light-gray);
             padding: 5px 12px;
             border-radius: 20px;
             font-size: 0.9rem;
         }
-        
+
         .social-links {
             display: flex;
             gap: 15px;
             flex-wrap: wrap;
         }
-        
+
         .social-links a {
             display: flex;
             align-items: center;
@@ -182,36 +183,37 @@
             border-radius: 4px;
             transition: all 0.3s ease;
         }
-        
+
         .social-links a:hover {
             background-color: var(--secondary-color);
             color: white;
             transform: translateY(-2px);
         }
-        
+
         @media (max-width: 768px) {
             .header {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .profile-img {
                 margin-right: 0;
                 margin-bottom: 20px;
             }
-            
+
             .contact-info {
                 justify-content: center;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile Picture" class="profile-img">
+            <img src="assets/profile.png" alt="Profile Picture" class="profile-img">
             <div class="header-text">
-                <h1>Dr. Alexandra Chen</h1>
+                <h1>Seyed Ali Hashemian</h1>
                 <p>Assistant Professor of Computer Science</p>
                 <div class="contact-info">
                     <a href="mailto:achen@university.edu"><i class="fas fa-envelope"></i> achen@university.edu</a>
@@ -220,7 +222,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="section">
             <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
             <div class="item">
@@ -249,7 +251,7 @@
                 <div class="item-subtitle">Massachusetts Institute of Technology</div>
             </div>
         </div>
-        
+
         <div class="section">
             <h2 class="section-title"><i class="fas fa-book"></i> Publications</h2>
             <div class="item">
@@ -283,7 +285,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="section">
             <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
             <div class="item">
@@ -329,7 +331,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="section">
             <h2 class="section-title"><i class="fas fa-code"></i> Software Skills</h2>
             <div class="skills-container">
@@ -365,7 +367,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="section">
             <h2 class="section-title"><i class="fas fa-link"></i> Professional Links</h2>
             <div class="social-links">
@@ -388,4 +390,5 @@
         </div>
     </div>
 </body>
+
 </html>
